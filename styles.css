@@ -1,0 +1,30 @@
+body{/*Define a cor de fundo do ssite*/
+    background-color: #139675;
+}
+
+section{/*criou uma cor para a borda; além de "dashed" deixar pontilhada*/
+    border: 1px dashed #ffffff;
+}
+
+#status{/*Estado inicial da imagem*/
+    color: rgb(165, 165, 138);
+    font-size: 30px;
+}
+
+button{/*estiliza o botão interativo*/
+    background-color: #8666c0;
+    width: 150px;
+    height: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+.menu-item{
+    gap:5rem;
+    text-decoration: none;
+    width: 40px;
+    height: 5%;
+}
+.menu-item:hover{
+   background-color: #000000;
+   color:rgb(255, 255, 255)
+}
